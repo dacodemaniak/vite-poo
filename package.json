@@ -2,9 +2,8 @@
   "name": "poo",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "tsc && node ./src/main.js"
+    "dev": "tsc ./src/main && node ./src/main.js"
   },
   "devDependencies": {
     "typescript": "^5.2.2",
