@@ -4,6 +4,7 @@ class Main {
   }
 }
 
+// Bootstrap application
 (() => {
   new Main()
 })()
