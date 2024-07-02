@@ -1,3 +1,4 @@
+import { CircleBuilder } from "./geometric-shape/builder/circle-builder"
 import { Rectangle } from "./geometric-shape/rectangle"
 import { RectangleBuilder } from "./geometric-shape/rectangle-builder"
 
@@ -16,6 +17,12 @@ class Main {
     } catch (error: any) {
       console.log(`Unable to build a Rectangle`)
     }
+
+    // Just do it with Circle
+    const circleBuilder = new CircleBuilder()
+    circleBuilder.setRadius(5)
+    const circle = circleBuilder.build()
+    console.log(circle.toString())
   }
 }
 
