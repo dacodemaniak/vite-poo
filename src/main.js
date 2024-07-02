@@ -20,8 +20,13 @@ var Main = /** @class */ (function () {
         // Just do it with Circle
         var circleBuilder = new circle_builder_1.CircleBuilder();
         circleBuilder.setRadius(5);
-        var circle = circleBuilder.build();
-        console.log(circle.toString());
+        try {
+            var circle = circleBuilder.build();
+            console.log(circle.toString());
+        }
+        catch (error) {
+            console.error(error.message);
+        }
     };
     return Main;
 }());

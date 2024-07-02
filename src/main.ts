@@ -21,8 +21,13 @@ class Main {
     // Just do it with Circle
     const circleBuilder = new CircleBuilder()
     circleBuilder.setRadius(5)
-    const circle = circleBuilder.build()
-    console.log(circle.toString())
+    try {
+      const circle = circleBuilder.build()
+      console.log(circle.toString())
+    } catch (error: any) {
+      console.error(error.message)
+    }
+
   }
 }
 
