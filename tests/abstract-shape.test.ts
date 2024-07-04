@@ -9,6 +9,7 @@ describe(`Abstract Shape class`, () => {
 
     it(`Should be an instance of Rectangle`, () => {
         const rectangle = new Rectangle()
+        rectangle.setColor('blue')
         expect(rectangle).toBeInstanceOf(Rectangle)
     })
 
