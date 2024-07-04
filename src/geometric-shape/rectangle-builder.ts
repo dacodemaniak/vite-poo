@@ -22,7 +22,7 @@ export class RectangleBuilder implements RectangleBuilderInterface {
             rectangle.setWidth(this.width)
             return rectangle
         }
-        throw new Error("Method not implemented.");
+        throw new Error("Something went wrong while building a Rectangle");
     }
 
     private _checkForPositiveValue(): boolean {
