@@ -1,4 +1,10 @@
-export class Rectangle {
+import { Shape } from "./shape"
+
+export class Rectangle extends Shape {
+    perimeter(): number {
+        return (this.length + this.width) * 2
+    }
+
     private length: number = 0
     private width: number = 0
 

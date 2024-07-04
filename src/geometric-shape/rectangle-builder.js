@@ -20,7 +20,7 @@ var RectangleBuilder = /** @class */ (function () {
             rectangle.setWidth(this.width);
             return rectangle;
         }
-        throw new Error("Method not implemented.");
+        throw new Error("Something went wrong while building a Rectangle");
     };
     RectangleBuilder.prototype._checkForPositiveValue = function () {
         return this.width > 0 && this.length > 0;
