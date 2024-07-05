@@ -23,4 +23,11 @@ describe('Rectangle class', () => {
         rectangle.setWidth(5)
         expect(rectangle.getWidth()).toBe(5)
     })
+
+    it (`Should give a 40 perimeter`, () => {
+        const rectangle = new Rectangle()
+        rectangle.setWidth(5)
+        rectangle.setLength(15)
+        expect(rectangle.perimeter()).toBe(40)
+    })
 })

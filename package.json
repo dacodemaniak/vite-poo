@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "tsc ./src/main && node ./src/main.js", 
-    "test": "jest --watch --coverage"
+    "test": "jest --coverage"
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",

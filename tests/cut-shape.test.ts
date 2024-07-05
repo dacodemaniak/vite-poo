@@ -14,8 +14,6 @@ describe(`Shape cutting`, () => {
         shapeList.push(rectangle)
         shapeList.push(circle)
 
-        for (let shape of shapeList) {
-            const perimeter = shape.perimeter()
-        }
+        expect(shapeList[0].perimeter()).toBe(40)
     })
 })
