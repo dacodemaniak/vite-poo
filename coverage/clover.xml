@@ -1,107 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1720159373349" clover="3.2.0">
-  <project timestamp="1720159373350" name="All files">
-    <metrics statements="89" coveredstatements="81" conditionals="42" coveredconditionals="26" methods="34" coveredmethods="28" elements="165" coveredelements="135" complexity="0" loc="89" ncloc="89" packages="1" files="4" classes="4"/>
-    <file name="circle.js" path="/Users/jlaubert/devspace/poo/src/geometric-shape/circle.js">
-      <metrics statements="26" coveredstatements="21" conditionals="18" coveredconditionals="10" methods="11" coveredmethods="7"/>
-      <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="1" type="cond" truecount="1" falsecount="3"/>
-      <line num="5" count="0" type="stmt"/>
-      <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-      <line num="10" count="1" type="cond" truecount="2" falsecount="2"/>
-      <line num="11" count="0" type="stmt"/>
-      <line num="12" count="1" type="stmt"/>
-      <line num="13" count="1" type="stmt"/>
-      <line num="14" count="1" type="cond" truecount="1" falsecount="1"/>
-      <line num="17" count="1" type="stmt"/>
-      <line num="18" count="1" type="stmt"/>
-      <line num="19" count="1" type="stmt"/>
-      <line num="20" count="1" type="stmt"/>
-      <line num="21" count="1" type="stmt"/>
-      <line num="23" count="1" type="cond" truecount="3" falsecount="0"/>
-      <line num="25" count="1" type="stmt"/>
-      <line num="26" count="1" type="stmt"/>
-      <line num="28" count="1" type="stmt"/>
-      <line num="29" count="0" type="stmt"/>
-      <line num="31" count="1" type="stmt"/>
-      <line num="32" count="0" type="stmt"/>
-      <line num="34" count="1" type="stmt"/>
-      <line num="36" count="1" type="stmt"/>
-    </file>
-    <file name="rectangle-builder.js" path="/Users/jlaubert/devspace/poo/src/geometric-shape/rectangle-builder.js">
-      <metrics statements="23" coveredstatements="23" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="7"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="8" count="1" type="stmt"/>
-      <line num="9" count="6" type="stmt"/>
-      <line num="10" count="6" type="stmt"/>
-      <line num="12" count="1" type="stmt"/>
-      <line num="13" count="6" type="stmt"/>
-      <line num="14" count="6" type="stmt"/>
-      <line num="16" count="1" type="stmt"/>
-      <line num="17" count="6" type="cond" truecount="4" falsecount="0"/>
-      <line num="18" count="2" type="stmt"/>
-      <line num="19" count="2" type="stmt"/>
-      <line num="20" count="2" type="stmt"/>
-      <line num="21" count="2" type="stmt"/>
-      <line num="23" count="4" type="stmt"/>
-      <line num="25" count="1" type="stmt"/>
-      <line num="26" count="6" type="cond" truecount="2" falsecount="0"/>
-      <line num="28" count="1" type="stmt"/>
-      <line num="29" count="3" type="stmt"/>
-      <line num="31" count="1" type="stmt"/>
-      <line num="33" count="1" type="stmt"/>
-    </file>
-    <file name="rectangle.js" path="/Users/jlaubert/devspace/poo/src/geometric-shape/rectangle.js">
-      <metrics statements="33" coveredstatements="30" conditionals="18" coveredconditionals="10" methods="13" coveredmethods="11"/>
-      <line num="2" count="4" type="cond" truecount="3" falsecount="0"/>
-      <line num="3" count="4" type="stmt"/>
-      <line num="4" count="4" type="cond" truecount="1" falsecount="3"/>
-      <line num="5" count="0" type="stmt"/>
-      <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="7" count="4" type="stmt"/>
-      <line num="9" count="4" type="stmt"/>
-      <line num="10" count="4" type="cond" truecount="2" falsecount="2"/>
-      <line num="11" count="0" type="stmt"/>
-      <line num="12" count="4" type="stmt"/>
-      <line num="13" count="4" type="stmt"/>
-      <line num="14" count="4" type="cond" truecount="1" falsecount="1"/>
-      <line num="17" count="4" type="stmt"/>
-      <line num="18" count="4" type="stmt"/>
-      <line num="19" count="4" type="stmt"/>
-      <line num="20" count="4" type="stmt"/>
-      <line num="21" count="4" type="stmt"/>
-      <line num="23" count="11" type="cond" truecount="3" falsecount="0"/>
-      <line num="24" count="11" type="stmt"/>
-      <line num="25" count="11" type="stmt"/>
-      <line num="26" count="11" type="stmt"/>
-      <line num="28" count="4" type="stmt"/>
-      <line num="29" count="3" type="stmt"/>
-      <line num="32" count="4" type="stmt"/>
-      <line num="33" count="3" type="stmt"/>
-      <line num="35" count="4" type="stmt"/>
-      <line num="36" count="2" type="stmt"/>
-      <line num="39" count="4" type="stmt"/>
-      <line num="40" count="6" type="stmt"/>
-      <line num="47" count="4" type="stmt"/>
-      <line num="48" count="6" type="stmt"/>
-      <line num="50" count="4" type="stmt"/>
-      <line num="52" count="4" type="stmt"/>
-    </file>
-    <file name="shape.js" path="/Users/jlaubert/devspace/poo/src/geometric-shape/shape.js">
-      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-      <line num="2" count="4" type="stmt"/>
-      <line num="3" count="4" type="stmt"/>
-      <line num="4" count="4" type="stmt"/>
-      <line num="7" count="4" type="stmt"/>
-      <line num="8" count="1" type="stmt"/>
-      <line num="10" count="4" type="stmt"/>
-      <line num="12" count="4" type="stmt"/>
-    </file>
+<coverage generated="1720172046616" clover="3.2.0">
+  <project timestamp="1720172046616" name="All files">
+    <metrics statements="112" coveredstatements="104" conditionals="42" coveredconditionals="26" methods="42" coveredmethods="36" elements="196" coveredelements="166" complexity="0" loc="112" ncloc="112" packages="3" files="8" classes="8"/>
+    <package name="dbal">
+      <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+      <file name="abstract-connect.ts" path="/Users/jlaubert/devspace/poo/src/dbal/abstract-connect.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+      </file>
+      <file name="dbal.ts" path="/Users/jlaubert/devspace/poo/src/dbal/dbal.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+      </file>
+      <file name="mariadb-connect.ts" path="/Users/jlaubert/devspace/poo/src/dbal/mariadb-connect.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="dbal.strategy">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="mariadb-picker-strategy.ts" path="/Users/jlaubert/devspace/poo/src/dbal/strategy/mariadb-picker-strategy.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="geometric-shape">
+      <metrics statements="89" coveredstatements="81" conditionals="42" coveredconditionals="26" methods="34" coveredmethods="28"/>
+      <file name="circle.js" path="/Users/jlaubert/devspace/poo/src/geometric-shape/circle.js">
+        <metrics statements="26" coveredstatements="21" conditionals="18" coveredconditionals="10" methods="11" coveredmethods="7"/>
+        <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="cond" truecount="1" falsecount="3"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="cond" truecount="2" falsecount="2"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="23" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+      </file>
+      <file name="rectangle-builder.js" path="/Users/jlaubert/devspace/poo/src/geometric-shape/rectangle-builder.js">
+        <metrics statements="23" coveredstatements="23" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="7"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="6" type="cond" truecount="4" falsecount="0"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+      </file>
+      <file name="rectangle.js" path="/Users/jlaubert/devspace/poo/src/geometric-shape/rectangle.js">
+        <metrics statements="33" coveredstatements="30" conditionals="18" coveredconditionals="10" methods="13" coveredmethods="11"/>
+        <line num="2" count="4" type="cond" truecount="3" falsecount="0"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="cond" truecount="1" falsecount="3"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="cond" truecount="2" falsecount="2"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="23" count="11" type="cond" truecount="3" falsecount="0"/>
+        <line num="24" count="11" type="stmt"/>
+        <line num="25" count="11" type="stmt"/>
+        <line num="26" count="11" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="35" count="4" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="39" count="4" type="stmt"/>
+        <line num="40" count="6" type="stmt"/>
+        <line num="47" count="4" type="stmt"/>
+        <line num="48" count="6" type="stmt"/>
+        <line num="50" count="4" type="stmt"/>
+        <line num="52" count="4" type="stmt"/>
+      </file>
+      <file name="shape.js" path="/Users/jlaubert/devspace/poo/src/geometric-shape/shape.js">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
